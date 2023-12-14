@@ -1,0 +1,41 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    max-width: 640px;
+    margin: 50px auto 0 auto;
+    border: 1px solid #65ba6b55;
+    padding: 10px;
+}
+h1 {
+    font-size: 1.8rem ;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 1.0rem ;
+    font-weight: normal;
+    margin-top: 0;
+    color: green;
+}
+
+form {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.form-submit {
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+.form-submit button{
+    background-color: aquamarine;
+    color: aliceblue;
+    width: 150px;
+    padding: 8px 30px;
+    border: none;
+    border-radius:5px;
+}
