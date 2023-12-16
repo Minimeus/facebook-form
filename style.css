@@ -43,6 +43,18 @@ form {
     margin-bottom: 6px;
 }
 
+legend { /* chama só o element e não um nome que poderia ter sido dado com .nome */
+    font-size: 0.8rem; 
+    /* tamanho de letre de legend muda */
+}
+
+select {
+    width: 32%;
+    margin-right: 5px;
+    padding: 5px 6px;
+    background-color: #FFF;
+}
+
 .form-submit {
     margin: 20px 0;
     text-align: center;

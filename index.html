@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title> Formulario de Registo </title>
         <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
     </head>
     <body>
         <main>
@@ -23,6 +24,33 @@
 
                 <div class="large-input">
                     <input type="password" name="Password" placeholder="Nova Palavra Passe" aria-label="Nova Palavra Passe" required>
+                </div>
+
+                <div class="birth-date">
+                    <fieldset>
+                        <legend> Data de Nascimento</legend>
+                        <select name="birth-day" aria-label="Dia">
+                        </select>
+
+                        <select name="birth-month" aria-label="Mês">
+                            <option value="1">Jan</option>
+                            <option value="2">Fev</option>
+                            <option value="3">Mars</option>
+                            <option value="4">April</option>
+                            <option value="5">Maio</option>
+                            <option value="6">Junho</option>
+                            <option value="7">Julho</option>
+                            <option value="8">Agosto</option>
+                            <option value="9">Setembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="11">Novembro</option>
+                            <option value="12">Dezembro</option>
+                        </select>
+
+                        <select name="birth-year" aria-label="Ano">
+                        </select>
+
+                    </fieldset>
                 </div>
 
                 <div class="form-submit">
