@@ -8,6 +8,12 @@ main{
     border: 1px solid #65ba6b55;
     padding: 10px;
 }
+
+.logo {
+    width : 15vw; 
+}
+
+
 h1 {
     font-size: 1.8rem ;
     margin-bottom: 0;
